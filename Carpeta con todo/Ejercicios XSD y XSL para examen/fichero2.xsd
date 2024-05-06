@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml-stylesheet type="text/xsl" href="fichero2.xsl"?>
+<xsl:template match="/">
+<html>
+    <body>
+        <h3>COLECCIÓN DE RAQUETAS</h3>
+        <table style="border: 1px solid black">
+            <tr style="background-color:#CCFFFF">
+                <th style="text-align: left">MARCA</th>
+                <th style="text-align: left">MODELO</th>
+                <th style="text-align: left">AÑO</th>
+                <th style="text-align: left">PRECIO</th>
+            </tr>
+
+            <xsl: for -each select="tienda/raqueta">
+                <tr>
+                    <td><xsl:value-of select="marca" /></td>
+                    <td><xsl:value-of select="modelo" /></td>
+                    <td><xsl:value-of select="anio" /></td>
+                </tr>
+                <xsl:choose>
+                    <xsl:when test='precio>150'>
+                        <td style="background-color:#ffff66">
+                            <xsd:value-of select="preco"/>
+                        </td>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl: for-each>
+        </table>
+    </body>
+</html>
+</xsl:template>
+</xsl:xml-stylesheet>

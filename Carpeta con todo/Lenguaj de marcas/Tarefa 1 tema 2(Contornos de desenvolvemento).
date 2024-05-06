@@ -1,0 +1,29 @@
+Ola! Podo explicarche os pasos para compilar e executar o programa que proporcionaches en Java sen utilizar un entorno de desenvolvemento integrado (IDE) como Eclipse. Vou basearme no uso da liña de comandos e as ferramentas estándar de Java.
+
+a) Pasos para compilar e executar o código:
+
+    Abre un editor de texto como Notepad (en Windows), Nano ou Vim (en Linux/Unix) ou TextEdit (en macOS). Copia o código que proporcionaches no teu artigo ("OlaMundo.java") e pégaoo no editor de texto.
+
+    Garda o arquivo coa extensión ".java". No teu caso, o nome do arquivo será "OlaMundo.java".
+
+    Abre unha terminal ou símbolo de sistema no teu equipo.
+
+    Navega á carpeta na que gardaches o arquivo "OlaMundo.java" usando o comando "cd" (cambio de directorio).
+
+    Compila o arquivo Java usando o comando "javac". Escribirás o seguinte na terminal:
+
+javac OlaMundo.java
+
+Isto compilará o arquivo e xerará un novo arquivo chamado "OlaMundo.class" na mesma carpeta.
+
+Unha vez que o arquivo se compile sen erros, podes executar o programa Java utilizando o comando "java" e o nome da clase principal. No teu caso, o comando será:
+
+    java OlaMundo
+
+    A saída do programa será mostrada na terminal, que debería ser "Ola Mundo".
+
+b) Creouse algún arquivo novo no teu equipo? Qué extensión ten?
+
+    Despois de compilar o código fonte Java, créase un arquivo coa extensión ".class" na mesma carpeta onde se gardou o arquivo fonte. Neste caso, o arquivo será "OlaMundo.class". O arquivo ".class" contén o bytecode que pode ser executado pola máquina virtual de Java (JVM).
+
+Así que, no teu equipo, deberías ter dous arquivos na mesma carpeta onde gardaches o código fonte: "OlaMundo.java" (o código fonte) e "OlaMundo.class" (o arquivo compilado).

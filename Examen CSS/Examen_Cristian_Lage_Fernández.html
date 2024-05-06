@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+
+        @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap");
+        * { padding: 0; margin: 0; }
+        html {
+            font-family: "Roboto", sans-serif; 
+            font-size: 12px; }
+        body {
+            height: 100vh;
+            padding: 2rem;
+            background: #1488cc;
+            background: linear-gradient(to right, #2b32b2, #1488cc);
+        }
+        .card {
+            /* Bordes redondeados y una sombra */
+            background: white;
+            width: 430px;
+            height: 275px;
+            position: relative;
+            float: right;
+            right: 676px;
+            top: 180px;
+            border-radius: 15px;
+            box-shadow: 4px 2px 4px 2px black;
+        }
+        .container_copy {
+            
+        }
+        .img_pod {
+            /* El círculo, un gradiante en el borde y una sombra */
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            border-radius: 50%;
+            background: white;
+            left: -50px;
+            top: -65px;
+            border: 5px solid violet;
+            box-shadow: 2px 1px 1px 2px blue;
+        }
+        img {
+            /* Centrada */
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            border-radius: 50%;
+            background: white;
+        }
+        h3 {
+            float: right;
+            position: relative;
+            margin: 0;
+            left: -255px;
+            top: 49px;
+            color: gray;
+            font-size: 15px;
+        }
+        h1 {
+           float: right;
+           position: relative;
+           margin: 21px;
+           top: 49px; 
+           left: -64px;
+        }
+        p {
+           float: right;
+           position: relative;
+           margin: 20px;
+           top: 22px;
+           line-height: 120%; 
+           text-align: justify;
+           font-size: 16px;
+        }
+        .btn_primary {
+            /* Un gradiente de fondo y una sombra */
+            float: right;
+            position: relative;
+            margin: 20px;
+            top: 19px;
+            left: -277px;
+            border-radius: 43%;
+            background: linear-gradient(orangered 150px, yellow 150px);
+            height: 36px;
+            width: 95px;
+            border: 1px solid black;
+            box-shadow: 1px 1px 2px 1px rgb(10, 10, 10);
+            color: white;
+
+        }
+        .btn_primary:hover {
+            /* Una transformación de escala (1.3) y el cursor correspondiente a un botón */
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="img_pod">
+            <img src="https://pbs.twimg.com/profile_images/890901007387025408/oztASP4n.jpg" alt="random image">
+        </div>
+        <div class="container_copy">
+            <h3>12 January 2019</h3>
+            <h1>CSS Positioning</h1>
+            <p>The position property specifies the type of positioning method used for an element (static, relative, absolute, fixed, or sticky).</p>
+            <button class="btn_primary" href='#' target="_blank">Read More</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+sudo su
+cd /usr/bin
+chmod 777 ubridge

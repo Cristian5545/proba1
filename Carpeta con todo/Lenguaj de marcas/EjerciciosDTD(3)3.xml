@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE portes [
+<!ELEMENT portes (recepcion | entrega)*>
+<!ELEMENT recepcion (producto, cantidad, codigoreceptor?)>
+<!ELEMENT producto (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT codigoreceptor (#PCDATA)>
+<!ELEMENT entrega (transportistas, distancia, coste?)>
+<!ATTLIST entrega receptor CDATA #REQUIRED>
+<!ELEMENT transportistas (#PCDATA)>
+<!ELEMENT distancia (#PCDATA)>
+<!ATTLIST distancia unidad CDATA #REQUIRED>
+<!ATTLIST entrega coste CDATA #REQUIRED>
+]>
+
+<portes>
+  <recepcion>
+    <producto>Fruta</producto>
+    <cantidad>125.5</cantidad>
+    <codigoreceptor>333-AZT</codigoreceptor>
+  </recepcion>
+  <entrega receptor="Mercados SL" coste="1321">
+    <transportistas>T2</transportistas>
+    <distancia unidad="millas">468</distancia>
+  </entrega>
+  <recepcion>
+    <producto>Verdura</producto>
+    <cantidad>250</cantidad>
+    <!--El código de receptor no se usó aquí-->
+  </recepcion>
+</portes>

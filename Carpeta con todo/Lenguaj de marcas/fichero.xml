@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml-stylesheet type="text/xsl" href="RAQUETAS.xsl"?>
+  <tienda>
+    <raqueta>
+      <marca>BABOLAT</marca>
+      <modelo>PURE DRIVE</modelo>
+      <anio>2012</anio>
+    </raqueta>
+    <raqueta>
+      <marca>YONEX</marca>
+      <modelo>MPTOUR</modelo>
+      <anio>1997</anio>
+    </raqueta>
+    <raqueta>
+      <marca>WILSON</marca>
+      <modelo>HAMMER</modelo>
+      <anio>2000</anio>
+    </raqueta>
+  </tienda>
+</xml-stylesheet>

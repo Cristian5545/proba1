@@ -1,0 +1,20 @@
+<?xml version="1.0" encosing="iso-8859-1"?>
+<examenes>
+	<materia>
+		<nombre>Lenguaje de marcas</nombre>
+		<aprobados>15</aprobados>
+		<suspensos>10</suspensos>
+		<unidades>4</unidades>	
+	</materia>
+	<materia>
+		<nombre>Sistemas operativos</nombre>
+		<aprobados>5</aprobados>
+		<suspensos>20</suspensos>
+		<unidades>5</unidades>
+	</materia>
+	<materia>
+		<nombre>FOL</nombre>
+		<aprobados>7</aprobados>
+		<suspensos>15</suspensos>
+		<unidades>10</unidades>
+</examenes>

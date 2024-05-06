@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="discos4.xsl"?>
+<catalogo>
+<disco>
+<titulo>me va la vida</titulo>
+<artista>julio iglesias</artista>
+<pais>espana</pais>
+<compania>kamaleon</compania>
+<precio>9.80</precio>
+<anio>1985</anio>
+</disco>
+<disco>
+<titulo>grandes exitos</titulo>
+<artista>un punguino en mi ascensor</artista>
+<pais>portugal</pais>
+<compania>pingu-records</compania>
+<precio>14.80</precio>
+<anio>1992</anio>
+</disco>
+<disco>
+<titulo>unchain my heart</titulo>
+<artista>joe cocker</artista>
+<pais>usa</pais>
+<compania>emi</compania>
+<precio>9.20</precio>
+<anio>1987</anio>
+</disco>
+<disco>
+<titulo>Paquito el chocolatero</titulo>
+<artista>Paquito</artista>
+<pais>espana</pais>
+<compania>emi</compania>
+<precio>10.00</precio>
+<anio>1991</anio>
+</disco>
+</catalogo>

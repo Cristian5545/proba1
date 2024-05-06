@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<arboles_tropicales>
+  <especie variedad="Kway may pink">
+      <nombre>Litchi</nombre>
+      <ciudad_origen>Filipinas</ciudad_origen>
+      <color_fruto>Rosa</color_fruto>
+      <maduracion>Agosto</maduracion>
+      <riego>diario</riego>
+      <precio moneda="euro" peso="kg">3,50</precio>
+  </especie>
+</arboles_tropicales>

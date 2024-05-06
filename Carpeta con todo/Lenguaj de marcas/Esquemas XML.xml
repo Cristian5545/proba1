@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<bdalumnos xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="xsdalumnos.xsd">
+<alumno>
+    <nombre>José Antonio</nombre>
+    <padre>José Luis</padre>
+    <madre>Carmen</madre>
+    <edad>Málaga</edad>
+</alumno>
+<alumno>
+      <nombre>Francisco Jesús</nombre>
+      <padre>José</padre>
+      <madre>María</madre>
+      <edad>25</edad>
+      <ciudad>Barcelona</ciudad>
+</alumno>
+</bdalumnos>

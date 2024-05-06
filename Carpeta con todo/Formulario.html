@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Formulario</title>
+  </head>
+  <form action="#" method="get">
+    <fieldset>
+        <legend>Rellenar</legend>
+        <input type="radio" name="idioma" value="1"/><label>Inglés</label><br/>
+        <input type="radio" name="idioma" value="2"/><label>Alemán</label><br/>
+        <input type="radio" name="idioma" value="3"/><label>Francés</label><br/>
+        <br/>
+
+        <select name="USB">
+            <option value="USB">USB</option>
+            <option value="ordenador">ordenador</option>
+            <option value="ratón">ratón</option>
+        </select>
+        <br/>
+
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" size="45" maxlength="40"/>
+
+        <br/>
+
+        <label for="nombre">Apellidos</label>
+        <input type="text" name="nombre" size="45" maxlength="40"/>
+    </fieldset>
+    <fieldset>
+        <input type="checkbox" name="checkbox" size="45" maxlength="15"/><label for="nombre">Mujer</label><br/>
+
+        <input type="checkbox" name="checkbox" size="45" maxlength="15"/><label for="nombre">Hombre</label><br/> 
+
+        <br/>
+
+        <label>Introduce tu fecha:</label>
+        <input type="date" name="time" size="45" maxlength="15"/>
+    </fieldset>
+    <form>
+        <br/>
+        <input type="submit" value="Enviar" size="45" maxlength="15"/>
+    </form>
+    <form>
+      <input list="frutas" name="frutas">
+      <datalist id="frutas">
+        <option value="Mango">
+        <option value="Aguacate">
+        <option value="Tamarillo">
+        <option value="Piña">  
+      </datalist>
+    </form>
+  </form>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catalogo8.xsl"?>
+<catalogo>
+<libro>
+<title>Don Quijote</title>
+<autores>
+<autor>Cervantes</autor>
+</autores>
+<fechaedicion>1984</fechaedicion>
+</libro>
+<libro>
+<title>Patrones de diseño en programación</title>
+<autores>
+<autor>Ralph Johnson</autor>
+<autor>Erich Gamma</autor>
+<autor>John Vlissides</autor>
+</autores>
+<fechaedicion>2007</fechaedicion>
+</libro>
+</catalogo>

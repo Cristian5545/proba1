@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<emails>
+   <email>
+     <receptor></receptor>
+     <asunto></asunto>
+     <cuerpo></cuerpo>
+   </email>
+   <email>
+     <receptor></receptor>
+     <asunto></asunto>
+     <cuerpo></cuerpo>
+   </email>
+</emails>
+
+<!ELEMENT emails (email)>
+<!ELEMENT email (receptor,asunto,cuerpo)>
+<!ELEMENT receptor (#CDATA)>
+<!ELEMENT asunto (#CDATA)>
+<!ELEMENT cuerpo (#CDATA)>

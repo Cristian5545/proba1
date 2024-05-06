@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <biblioteca>
+        <libro>
+            <título>lenguajes de marcas</título>
+            <autor>Autor1</autor>
+        </libro>
+    </biblioteca>
+    <biblioteca>
+        <libro>
+            <título>Los Miserables</título>
+            <autor>Víctor Hugo</autor>
+        </libro>
+    </biblioteca>

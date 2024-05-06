@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(to bottom right, #ff9eaa 0% 65%, #e860ff 95% 100%);
+}
+.card{
+    background-color: #f0e9ed;
+    border-radius: 2rem;
+    box-shadow: 0px 1rem 1.5rem rgba(0,0,0,0.5);
+    max-width: 360px;
+    overflow: hidden;
+}
+.card .banner{
+
+}
+.card h2.titulo{
+    margin: 0;
+    padding: 0 2rem 0.5rem;
+    text-align: center;
+}
+.card .substitulo{
+    color: #a0a0a0;
+    font-size: 0.85rem;
+    padding: 0 2rem 1.2rem;
+    text-align: center;
+}
+.card .datos{
+    display: inline-block;
+    padding: 0 2rem 1.2rem;
+}
+.card .datos .info{
+    display: inline-block;
+    padding: 0 0 1rem;
+}
+.card .datos .info h2{
+    box-sizing: border-box;
+    color: darkblue;
+    margin: 0;
+    text-align: center;
+}
+.card .datos .info .small{
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    margin: 0;
+    text-align: center;
+}
+.card .datos .boton button{
+    background-color: #ffd01a;
+    border: none;
+    border-radius: 1.5rem/50%;
+    box-sizing: border-box;
+    color: inherit;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: background-color 100ms ease-in-out, transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    width: 100%;
+}
+.card .desc{
+    line-height: 150%;
+    padding: 0 2rem 2.5rem;
+    text-align: justify;
+}

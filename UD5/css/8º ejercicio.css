@@ -1,0 +1,13 @@
+:root{
+    --color-primario: #3498db;
+    --color-fondo: #f1f1f1;
+    --borde-redondeado: 5px;
+}
+.custom-box{
+    background-color: var(--color-fondo);
+    padding: 20px;
+    border-radius: var(--borde-redondeado);
+}
+.custom-text{
+    color: var(--color-primario);
+}

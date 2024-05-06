@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE productos [
+<!ELEMENT productos (producto+)>
+<!ELEMENT producto (raton | monitor | teclado )>
+<!ELEMENT raton (codigo, (nombre?, descripcion?) )>
+<!ELEMENT teclado (codigo, (nombre?, descripcion?) )>
+<!ELEMENT monitor (codigo, (nombre?, descripcion?) )>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+
+<productos>
+   <producto>
+       <codigo>001</codigo>
+       <nombre>Teclado mecánico</nombre>
+       <descripcion>Teclado mecánico de alta calidad</descripcion>
+   </producto>
+   <raton>
+      <codigo>002</codigo>
+      <nombre>Ratón óptico</nombre>
+   </raton>
+   <monitor>
+       <codigo>003</codigo>
+       <nombre>Monitor LCD 27 pulgadas</nombre>
+       <descripcion>Monitor de alta resolución</descripcion>
+   </monitor>
+</productos>

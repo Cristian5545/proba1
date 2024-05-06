@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Register</title>
+  </head>
+  <body bgcolor="dd9e7e">
+    <p align="right"><big>6/2/2024</big></p>
+    <p align="center"><img src="./images/FARO DE VIGO.png" width="225" height="50"></p>
+    <p align="right"><a href="login.html">Inicia Sesión</a></p>
+    <hr/>
+    <table cellpadding="20" align="center" bgcolor="ca5c3c">
+    <thead>
+        <tr>
+          <th><a href="#Noticias">Noticias</a></th>
+          <th><a href="#Deportes">Deportes</a></th>
+          <th><a href="#Elecciones en Galicia">Elecciones en Galicia</a></th>
+          <th><a href="#Internacional">Internacional</a></th>
+          <th><a href="#España">España</a></th>
+        </tr>
+    </thead>
+    </table>
+    <hr/>
+    <table>
+        <fieldset>
+            <form action="#" method="get">
+                <label form="nombre">Nombre y apellido:</label><input type="text" placeholder="Ingrese su nombre y apellido" name="nombre" size="45" maxlength="40"/><br/>
+                <br/>
+                <label form="nombre">Email:</label><input type="text" name="nombre" placeholder="Ingrese su email" name="nombre" size="45" maxlength="40" required/><br/>
+                <br/>
+                <label form="nombre">Contraseña:</label><input type="password" name="nombre" placeholder="Ingrese su contraseña" name="nombre" size="45" maxlength="40" required/><br/>
+                <br/>
+                <label form="nombre">DNI:</label><input type="text" name="nombre" size="45" maxlength="40"/><br/>
+                <br/>
+                <p>Género:</p>
+                <input type="radio" name="genero" value="1"/><label>Hombre</label><br/>
+                <input type="radio" name="genero" value="2"/><label>Mujer</label><br/>
+                <input type="radio" name="genero" value="3"/><label>Otro</label><br/>
+                <br/>
+                <label form="nombre">Año de nacimiento:</label><input type="date" name="nombre" name="nombre" size="45" maxlength="40" min="1980-01-01" max="2015-01-01"/><br/>
+                <br/>
+                <label form="nombre">Teléfono móvil:</label><input type="text" name="nombre" size="45" maxlength="40"/><br/>
+                <br/>
+                <label form="nombre">Dirección completa:</label><input type="text" name="nombre" size="60" maxlength="30"/><br/>
+                <br/>
+                <label form="nombre">C.P:</label><input type="password" name="nombre" size="30" maxlength="30" minlength="5"/><br/>
+                <br/>
+                <label form="nombre">Población:</label><input type="text" name="nombre" size="30" maxlength="30"/><br/>
+                <br/>
+                <p>Provincia:</p>
+                <select name="Galicia">
+                  <option value="Ponteareas">Ponteareas</option>
+                  <option value="Santiago">Santiago</option>
+                  <option value="A Coruña">A Coruña</option>
+                  <option value="Ourense">Ourense</option>
+              </select>
+              <br/>
+              <p>Secciones preferidas:</p>
+              <label>Shoots</label><input type="checkbox" name="checkbox" size="45" maxlength="15"/>
+              <br/>
+              <label>Estrategia</label><input type="checkbox" name="checkbox" size="45" maxlength="15"/>
+              <br/>
+              <label>Deportes</label><input type="checkbox" name="checkbox" size="45" maxlength="15"/>
+              <br/>
+              <label>RPG</label><input type="checkbox" name="checkbox" size="45" maxlength="15"/>
+              <br/>
+              <p>Plan de suscripción elegido:</p>
+              <select name="Suscripciones">
+                <option value="1€ mes">1€ mes</option>
+                <option value="3€ al trimestre">3€ al trimestre</option>
+                <option value="10€ anuales" selected>10€ anuales</option>
+              </select>
+              <p>Listado de normas:</p>
+              <label>1º norma</label><input type="checkbox" name="checkbox" size="45" maxlength="15"/>
+              <br/>
+              <label>2º norma</label><input type="checkbox" name="checkbox" size="45" maxlength="15"/>
+              <br/>
+              <label>3º norma</label><input type="checkbox" name="checkbox" size="45" maxlength="15"/>
+              <br/>
+              <label>4º norma</label><input type="checkbox" name="checkbox" size="45" maxlength="15"/>
+              <br/>
+              <br/>
+              <p>Observaciones:</p>
+              <textarea name="textarea" rows="10" cols="50"></textarea>
+              <br/>
+              <input type="submit" value="Enviar" size="45" maxlength="15"/>
+            </form>
+        </fieldset>
+    </table>
+  </body>
+  </html>
